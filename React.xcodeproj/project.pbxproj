@@ -12,6 +12,8 @@
 		101CEBE01F8E45BA00D2FA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101CEBDE1F8E45BA00D2FA63 /* Main.storyboard */; };
 		101CEBE21F8E45BA00D2FA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101CEBE11F8E45BA00D2FA63 /* Assets.xcassets */; };
 		101CEBE51F8E45BA00D2FA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101CEBE31F8E45BA00D2FA63 /* LaunchScreen.storyboard */; };
+		101CEBED1F8E49DA00D2FA63 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CEBEC1F8E49DA00D2FA63 /* TableViewController.swift */; };
+		101CEBEF1F8E4F6900D2FA63 /* ArrayOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101CEBEE1F8E4F6900D2FA63 /* ArrayOf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		101CEBE11F8E45BA00D2FA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101CEBE41F8E45BA00D2FA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101CEBE61F8E45BA00D2FA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101CEBEC1F8E49DA00D2FA63 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		101CEBEE1F8E4F6900D2FA63 /* ArrayOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				101CEBDA1F8E45BA00D2FA63 /* AppDelegate.swift */,
 				101CEBDC1F8E45BA00D2FA63 /* ViewController.swift */,
+				101CEBEC1F8E49DA00D2FA63 /* TableViewController.swift */,
 				101CEBDE1F8E45BA00D2FA63 /* Main.storyboard */,
+				101CEBEE1F8E4F6900D2FA63 /* ArrayOf.swift */,
 				101CEBE11F8E45BA00D2FA63 /* Assets.xcassets */,
 				101CEBE31F8E45BA00D2FA63 /* LaunchScreen.storyboard */,
 				101CEBE61F8E45BA00D2FA63 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101CEBEF1F8E4F6900D2FA63 /* ArrayOf.swift in Sources */,
 				101CEBDD1F8E45BA00D2FA63 /* ViewController.swift in Sources */,
+				101CEBED1F8E49DA00D2FA63 /* TableViewController.swift in Sources */,
 				101CEBDB1F8E45BA00D2FA63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +286,7 @@
 				DEVELOPMENT_TEAM = BWYT76Q3DS;
 				INFOPLIST_FILE = React/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.React;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.d214.React;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +301,7 @@
 				DEVELOPMENT_TEAM = BWYT76Q3DS;
 				INFOPLIST_FILE = React/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.React;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.d214.React;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
